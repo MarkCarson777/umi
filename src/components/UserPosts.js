@@ -22,7 +22,7 @@ class UserPosts extends React.Component {
             GO BACK
           </button>
         </Link>
-        <div className="users-card">
+        <div className="user-card">
           <p>{this.props.user.name}</p>
           <p>{this.props.user.email}</p>
         </div>
